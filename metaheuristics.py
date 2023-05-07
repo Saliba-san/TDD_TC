@@ -4,7 +4,7 @@ class GVNS:
     def __init__(self, neighbour_structs):
         self.neighbour_structs = neighbour_structs
 
-    def __findall_neighbours(self, x, k):
+    def __findall_neighbours(self, x, k): #TODO
         pass
 
     def __best_neighbour(self, x, k, funct):

@@ -6,11 +6,11 @@ class NeighbourStructs():
             self.swap_column, 
         ]
 
-    def swap_line():
+    def swap_line(): #TODO
         pass
 
-    def swap_solution():
+    def swap_solution(): #TODO
         pass
 
-    def swap_column():
+    def swap_column(): #TODO
         pass
