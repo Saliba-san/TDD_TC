@@ -22,7 +22,7 @@ class GVNS:
     def __best_improvement(self, x, k, funct):
         while True:
             _x = x
-            N_x = self.__best_neighbour(x, k, funct)
+            x = self.__best_neighbour(x, k, funct)
             if funct(x) >= funct(_x):
                 return(x)
 
